@@ -7,6 +7,7 @@
  * @author egraether / http://egraether.com/
  * @author zz85 / http://www.lab4games.net/zz85/blog
  */
+exports = module.exports = Vector2;
 
 function Vector2(x, y) {
 
