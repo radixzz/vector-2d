@@ -1,0 +1,25 @@
+{
+  "name": "vector-2d",
+  "version": "1.0.0",
+  "description": "2d vectors class",
+  "main": "main.js",
+  "scripts": {
+    "build": "(browserify main.js --standalone Vector2) > build/vector2.js && cat build/vector2.js | uglifyjs -mc --comments '/^!/' > build/vector2.min.js",
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radixzz/vector-2d.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radixzz/vector-2d/issues"
+  },
+  "homepage": "https://github.com/radixzz/vector-2d#readme",
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "uglify-js": "^3.2.0"
+  }
+}
