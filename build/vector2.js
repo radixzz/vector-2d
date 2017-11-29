@@ -13,7 +13,7 @@ exports = module.exports = Vector2;
 function Vector2(x, y) {
 
     this.x = x || 0;
-    this.y = y || x;
+    this.y = y || this.x;
 
 }
 
@@ -60,7 +60,7 @@ Object.assign(Vector2.prototype, {
     set: function (x, y) {
 
         this.x = x;
-        this.y = y || x;
+        this.y = y || this.x;
 
         return this;
 
