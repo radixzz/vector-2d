@@ -1,2 +1,3 @@
 # vector-2d
-Mutable 2D Vectors
+Slightly modified standalone version from Three.js vectors
+
