@@ -1,2 +1,2 @@
 # vector-2d
-Generic Vectors for 2D
+Mutable 2D Vectors
